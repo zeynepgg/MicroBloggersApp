@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CommentCell" customModule="MicroBloggersApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="395" height="170"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="395" height="170"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ZO-1a-oxp">
+                        <rect key="frame" x="0.0" y="0.0" width="395" height="170"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="0sU-AU-PV5">
+                                <rect key="frame" x="10" y="0.0" width="375" height="170"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qBP-9d-BB5">
+                                        <rect key="frame" x="0.0" y="0.0" width="47.5" height="40.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" name="LightOrange"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nikita@garfield.biz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOY-D6-DJY">
+                                        <rect key="frame" x="0.0" y="41.5" width="129.5" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" name="MediumBlue"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kuH-F5-nSY">
+                                        <rect key="frame" x="0.0" y="60.5" width="375" height="1"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="ssJ-R8-pm7"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HGu-yy-Avq">
+                                        <rect key="frame" x="0.0" y="62.5" width="347.5" height="107.5"/>
+                                        <string key="text">quia molestiae reprehenderit quasi aspernatur
+aut expedita occaecati aliquam eveniet laudantium
+omnis quibusdam delectus saepe quia accusamus maiores nam est
+cum et ducimus et vero voluptates excepturi deleniti ratione</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" name="DeepDarkBlue"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="LightGray"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0sU-AU-PV5" secondAttribute="trailing" constant="10" id="Eus-Np-a8J"/>
+                            <constraint firstAttribute="bottom" secondItem="0sU-AU-PV5" secondAttribute="bottom" id="IP6-6q-Mp8"/>
+                            <constraint firstItem="kuH-F5-nSY" firstAttribute="width" secondItem="2ZO-1a-oxp" secondAttribute="width" multiplier="0.949367" id="Lmi-EZ-HBd"/>
+                            <constraint firstItem="0sU-AU-PV5" firstAttribute="leading" secondItem="2ZO-1a-oxp" secondAttribute="leading" constant="10" id="Ppx-mj-aLP"/>
+                            <constraint firstItem="0sU-AU-PV5" firstAttribute="top" secondItem="2ZO-1a-oxp" secondAttribute="top" id="kHs-ug-HYB"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="2ZO-1a-oxp" secondAttribute="trailing" id="3Nc-oY-3I4"/>
+                <constraint firstItem="2ZO-1a-oxp" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Deg-51-Y5T"/>
+                <constraint firstItem="2ZO-1a-oxp" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="YSu-x8-UTK"/>
+                <constraint firstAttribute="bottom" secondItem="2ZO-1a-oxp" secondAttribute="bottom" id="quA-75-Dj5"/>
+            </constraints>
+            <size key="customSize" width="395" height="170"/>
+            <connections>
+                <outlet property="commentBodyLabel" destination="HGu-yy-Avq" id="qSy-iB-Unk"/>
+                <outlet property="commentMailLabel" destination="LOY-D6-DJY" id="NjY-5q-WoF"/>
+                <outlet property="commentNameLabel" destination="qBP-9d-BB5" id="Dh5-Ot-dvW"/>
+            </connections>
+            <point key="canvasLocation" x="223.91304347826087" y="127.23214285714285"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="DeepDarkBlue">
+            <color red="0.030999999493360519" green="0.125" blue="0.19599999487400055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LightGray">
+            <color red="0.86699998378753662" green="0.86699998378753662" blue="0.86699998378753662" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LightOrange">
+            <color red="1" green="0.54900002479553223" blue="0.19599999487400055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="MediumBlue">
+            <color red="0.17299999296665192" green="0.22400000691413879" blue="0.29399999976158142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

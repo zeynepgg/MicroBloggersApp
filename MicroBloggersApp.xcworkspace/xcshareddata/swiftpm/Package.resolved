@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "f82c23a8a7ef8dc1a49a8bfc6a96883e79121864",
+          "version": "5.5.0"
+        }
+      },
+      {
+        "package": "CollectionViewExtension",
+        "repositoryURL": "https://github.com/zeynepgg/CollectionViewExtension.git",
+        "state": {
+          "branch": null,
+          "revision": "66ccf4d9aaab2f3f49f771d8eb055e006b71e259",
+          "version": "0.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
