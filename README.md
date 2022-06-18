@@ -8,7 +8,7 @@ An app that shows the users and their posts and also the comments to posts.
 * From post details screen you can see post's comments, used collection view 
 
 ## Non-Functional Features
-* Supports iOS 12+
+* Supports iOS 15
 * Used Swift 5.5
 * Written using MVVM
 * Used API from https://jsonplaceholder.typicode.com/
